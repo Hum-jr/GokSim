@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://b3dvwwjs71nt0"]
+
+[ext_resource type="Script" uid="uid://d0l524362kd8y" path="res://ui.gd" id="1_b3bc3"]
+[ext_resource type="Script" uid="uid://dkp6g674npel4" path="res://button_2.gd" id="2_3b2b5"]
+
+[node name="Control" type="Control" unique_id=1361578074]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b3bc3")
+
+[node name="Button" type="Button" parent="." unique_id=835714385]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -94.0
+offset_top = -76.0
+offset_right = -8.0
+offset_bottom = -45.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "FIRLATMA"
+
+[node name="Ruzgar" type="Label" parent="." unique_id=2100056870 groups=["label_wind"]]
+layout_mode = 0
+offset_left = 68.0
+offset_top = 48.0
+offset_right = 108.0
+offset_bottom = 71.0
+text = "RÜZGAR HIZI: "
+
+[node name="Sicaklik" type="Label" parent="." unique_id=461396047 groups=["label_temp"]]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 87.0
+offset_right = 176.0
+offset_bottom = 110.0
+text = "SICAKLIK: "
+
+[node name="Yagis" type="Label" parent="." unique_id=1794215293 groups=["label_rain"]]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 124.0
+offset_right = 178.0
+offset_bottom = 147.0
+text = "YAĞIŞ:"
+
+[node name="Location" type="Label" parent="." unique_id=1773232083 groups=["label_location"]]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 14.0
+offset_right = 162.0
+offset_bottom = 37.0
+text = "YER: "
+
+[node name="Bulut" type="Label" parent="." unique_id=1713711210 groups=["label_cloud"]]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 157.0
+offset_right = 183.0
+offset_bottom = 180.0
+text = "BULUT: "
+
+[node name="Nem" type="Label" parent="." unique_id=1242465828 groups=["label_humidity"]]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 190.0
+offset_right = 184.0
+offset_bottom = 213.0
+text = "NEM:"
+
+[node name="Yukkseklik" type="Label" parent="." unique_id=1271779037 groups=["label_elevation"]]
+layout_mode = 0
+offset_left = 76.0
+offset_top = 221.0
+offset_right = 184.0
+offset_bottom = 244.0
+text = "YUKSEKLIK: "
+
+[node name="Button2" type="Button" parent="." unique_id=451951432]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 11.0
+offset_top = -76.0
+offset_right = 135.0
+offset_bottom = -45.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "BAŞKA YER SEÇ"
+script = ExtResource("2_3b2b5")
+place_selection_scene = "uid://bpb1jrgryim0r"
