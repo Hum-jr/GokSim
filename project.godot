@@ -10,9 +10,10 @@ config_version=5
 
 [application]
 
-config/name="UZAY LIMAN"
+config/name="GeoSim"
+run/main_scene="uid://bpb1jrgryim0r"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://qpb16jedlum2"
 
 [autoload]
 
